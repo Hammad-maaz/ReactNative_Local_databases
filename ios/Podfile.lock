@@ -2216,6 +2216,8 @@ PODS:
     - React-perflogger (= 0.80.1)
     - React-utils (= 0.80.1)
     - SocketRocket
+  - RealmJS (20.1.0):
+    - React
   - RNCAsyncStorage (2.2.0):
     - boost
     - DoubleConversion
@@ -2443,6 +2445,7 @@ DEPENDENCIES:
   - ReactAppDependencyProvider (from `build/generated/ios`)
   - ReactCodegen (from `build/generated/ios`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - RealmJS (from `../node_modules/realm`)
   - "RNCAsyncStorage (from `../node_modules/@react-native-async-storage/async-storage`)"
   - "RNFlashList (from `../node_modules/@shopify/flash-list`)"
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
@@ -2604,6 +2607,8 @@ EXTERNAL SOURCES:
     :path: build/generated/ios
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  RealmJS:
+    :path: "../node_modules/realm"
   RNCAsyncStorage:
     :path: "../node_modules/@react-native-async-storage/async-storage"
   RNFlashList:
@@ -2690,6 +2695,7 @@ SPEC CHECKSUMS:
   ReactAppDependencyProvider: afd905e84ee36e1678016ae04d7370c75ed539be
   ReactCodegen: f8d5fb047c4cd9d2caade972cad9edac22521362
   ReactCommon: 17fd88849a174bf9ce45461912291aca711410fc
+  RealmJS: 9fd51c849eb552ade9f7b11db42a319b4f6cab4c
   RNCAsyncStorage: 1f04c8d56558e533277beda29187f571cf7eecb2
   RNFlashList: e3c782f37970179e6b3c64f0f6007eb87d725f95
   RNGestureHandler: 5e1a1605659c22098719fc2e8aee453fe728f52e

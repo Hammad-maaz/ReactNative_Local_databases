@@ -20,6 +20,7 @@ const Dashboard:React.FC<props> = ({navigation}) => {
         {id: 1, title: "Async Storagage", navigate: "asyncStorage"},
         {id: 2, title: "Encrypted Storage", navigate: "encrypted"},
         {id: 3, title: "SQLite", navigate: "sqlite"},
+        {id: 4, title: "Realm", navigate: "realm"},
     ]
 
     return(

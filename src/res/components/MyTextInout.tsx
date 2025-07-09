@@ -3,7 +3,7 @@ import { KeyboardTypeOptions, TextInput } from "react-native"
 
 interface MyTextInputProps {
     placeHolder: string,
-    value: string,
+    value: any,
     onChange: (text: any) => void,
     keyboardType: KeyboardTypeOptions
 }
